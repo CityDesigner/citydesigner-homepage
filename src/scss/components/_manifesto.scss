@@ -1,0 +1,11 @@
+.manifesto {
+
+  max-width: 32rem;
+  @include center-box;
+
+  li {
+    font-size: ms(1);
+    margin-bottom: $spacing/2;
+  }
+
+}

@@ -1,0 +1,14 @@
+.wrapper {
+  @include center-box;
+  max-width: $wrapper;
+}
+
+.wrapper-small {
+  @include center-box;
+  max-width: $wrapper-small;
+}
+
+.wrapper-large {
+  @include center-box;
+  max-width: $wrapper-large;
+}
