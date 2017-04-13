@@ -45,6 +45,15 @@ h3 {
   padding: 0;
 }
 
+a {
+  color: $brandColor;
+  transition: color 0.35s $easingCubic;
+
+  &:hover {
+    color: shade($brandColor, 25%);
+  }
+}
+
 img {
   display: inline-block;
 }

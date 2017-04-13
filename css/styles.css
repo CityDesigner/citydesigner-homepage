@@ -407,6 +407,12 @@ h3 {
   margin: 0;
   padding: 0; }
 
+a {
+  color: #f45844;
+  transition: color 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94); }
+  a:hover {
+    color: #b74233; }
+
 img {
   display: inline-block; }
 
