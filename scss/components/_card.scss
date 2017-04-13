@@ -1,7 +1,7 @@
 $cardWitdhMobile: 85%;
 $cardWidth: 32rem;
 $cardWidthMobileExpanded: 95%;
-$cardWidthExpanded: 42rem;
+$cardWidthExpanded: 48rem;
 
 .blue {
     background-color:red !important;
@@ -22,14 +22,14 @@ $cardWidthExpanded: 42rem;
 
   .card__header {
     cursor: pointer;
-    padding: $spacing/2 $spacing/4;
+    padding: $spacing*0.75 $spacing/4;
     transition: all 0.55s $easingCubic;
     text-align: center;
 
     &:before {
       content: counter(section-counter);
       text-align: center;
-      font-size: ms(3);
+      font-size: ms(2);
       color: tint($gray, 25%);
       transition: all 0.55s $easingCubic;
     }
