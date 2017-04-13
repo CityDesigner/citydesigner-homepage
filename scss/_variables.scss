@@ -1,0 +1,42 @@
+// COLORS
+$bgColor: #ecf1f5;
+$baseColor: #333333;
+$brandColor: #f45844;
+
+$gray: #999;
+
+
+// BASE
+$modularscale: (
+  base: 1.15rem,
+  ratio: 1.333
+);
+
+$baseFont: 'Montserrat', 'Helvetica Neue','Segoe UI', 'Verdana', sans-serif;
+$headingFont: 'Montserrat', 'Helvetica Neue','Segoe UI', 'Verdana', sans-serif;
+
+$baseWeight: 300;
+$baseBold: 500;
+
+$headingWeight: 300;
+$headingBold: 500;
+
+$spacing: 1.5rem;
+
+// LAYOUT
+$wrapWidth: 56rem;
+$wrapWidthSmall: 42rem;
+$wrapWidthLarge: 72rem;
+
+
+$mobileWidth: '320px';
+$tabletWidth: '768px';
+$desktopWidth: '1024px';
+$hdWidth: '1920px';
+
+
+// SIZING
+$borderRadius: 0.5rem;
+
+// MISC.
+$easingCubic: cubic-bezier(0.250, 0.460, 0.450, 0.940);

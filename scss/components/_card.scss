@@ -1,0 +1,110 @@
+$cardWitdhMobile: 85%;
+$cardWidth: 32rem;
+$cardWidthMobileExpanded: 95%;
+$cardWidthExpanded: 42rem;
+
+.blue {
+    background-color:red !important;
+  }
+
+.card {
+  background-color: white;
+  border-radius: $borderRadius;
+  counter-increment: section-counter;
+  margin-bottom: $spacing;
+  transition: all 0.55s ease-in;
+  max-width: $cardWitdhMobile;
+  @include centerBox;
+
+  @include mq-desktop {
+    max-width: $cardWidth;
+  }
+
+  .card__header {
+    cursor: pointer;
+    padding: $spacing/2 $spacing/4;
+    transition: all 0.55s $easingCubic;
+    text-align: center;
+
+    &:before {
+      content: counter(section-counter);
+      text-align: center;
+      font-size: ms(3);
+      color: tint($gray, 25%);
+      transition: all 0.55s $easingCubic;
+    }
+
+  }
+
+  .card__title {
+    color: tint($baseColor, 25%);
+    transition: all 0.55s $easingCubic;
+  }
+
+  .toggle-icon {
+    transition: transform 0.55s $easingCubic;
+
+    svg path {
+      stroke: $gray;
+    }
+  }
+
+  .card__body {
+    display: none;
+  }
+
+  &.expanded {
+    max-width: $cardWidthMobileExpanded;
+    @include centerBox;
+
+    @include mq-desktop {
+      max-width: $cardWidthExpanded;
+    }
+
+    .card__header {
+      padding: $spacing $spacing/4;
+
+      &:before {
+        color: $brandColor;
+      }
+    }
+
+    .card__title {
+      color: $baseColor;
+      font-weight: $headingBold;
+    }
+
+    .toggle-icon {
+      transform: rotate(-180deg);
+    }
+
+    .card__body {
+      display: block;
+      height: auto;
+      overflow: auto;
+      padding: 0 $spacing/4;
+    }
+  }
+
+}
+
+
+// LAYOUT
+.card__header {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+
+  &:before {
+    width: percentage(1/12);
+  }
+
+  .card__title {
+    width: percentage(10/12);
+  }
+
+  .card__toggle {
+    width: percentage(1/12);
+  }
+}
+

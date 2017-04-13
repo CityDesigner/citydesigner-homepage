@@ -1,2 +1,0 @@
-# homepage
-citydesigner.org homepage

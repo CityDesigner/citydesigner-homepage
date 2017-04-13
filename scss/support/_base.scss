@@ -1,0 +1,44 @@
+html {
+  font-size: 75%;
+
+  @include mq-tablet {
+    font-size: 85%;
+  }
+
+  @include mq-desktop {
+    font-size: 100%;
+  }
+}
+
+body {
+  background-color: $bgColor;
+  color: $baseColor;
+  font-family: $baseFont;
+  font-size: ms(0);
+  font-weight: $baseWeight;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: $headingFont;
+  font-weight: $headingWeight;
+}
+
+h1 {
+  font-size: ms(2);
+  font-weight: $headingBold;
+}
+
+
+h2 {
+  color: $brandColor;
+  font-size: ms(1);
+  font-weight: $headingBold;
+}
+
+h3 {
+  font-size: ms(1);
+  margin: 0;
+}
