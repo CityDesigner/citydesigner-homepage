@@ -1,4 +1,4 @@
-$cardWitdhMobile: 85%;
+$cardWitdhMobile: 90%;
 $cardWidth: 32rem;
 $cardWidthMobileExpanded: 95%;
 $cardWidthExpanded: 48rem;
@@ -22,7 +22,7 @@ $cardWidthExpanded: 48rem;
 
   .card__header {
     cursor: pointer;
-    padding: $spacing*0.75 $spacing/4;
+    padding: $spacing/2 $spacing/4;
     transition: all 0.55s $easingCubic;
     text-align: center;
 
@@ -72,6 +72,7 @@ $cardWidthExpanded: 48rem;
     .card__title {
       color: $baseColor;
       font-weight: $headingBold;
+      font-size: ms(2);
     }
 
     .toggle-icon {

@@ -2,6 +2,29 @@
   text-align: center;
 }
 
+.fw-bold {
+  font-weight: $baseBold;
+}
+
+h1.fw-bold,
+h2.fw-bold,
+h3.fw-bold,
+h4.fw-bold {
+  font-weight: $headingBold;
+}
+
+.fs-small {
+  font-size: ms(-1);
+}
+
+.fs-large {
+  font-size: ms(1);
+}
+
+.text-brand {
+  color: $brandColor;
+}
+
 .uppercase {
   text-transform: uppercase;
   letter-spacing: 0.05rem;

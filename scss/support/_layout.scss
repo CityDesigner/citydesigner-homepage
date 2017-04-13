@@ -1,4 +1,11 @@
 .wrap {
+  padding: 0 $spacing/4;
   max-width: $wrapWidth;
+  @include centerBox;
+}
+
+.wrap-small {
+  padding: 0 $spacing/4;
+  max-width: $wrapWidthSmall;
   @include centerBox;
 }
