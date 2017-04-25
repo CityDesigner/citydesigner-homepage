@@ -15,7 +15,7 @@ $(document).ready(function(){
   });
 
   $('.quote-slider__nav').slick({
-    slidesToShow: 3,
+    slidesToShow: 5,
     slidesToScroll: 1,
     asNavFor: '.quote-slider__slider',
     dots: false,
