@@ -3,28 +3,28 @@ $cardWidth: 32rem;
 $cardWidthMobileExpanded: 95%;
 $cardWidthExpanded: 48rem;
 
-.blue {
-    background-color:red !important;
-  }
-
-.card {
+.manifesto {
   background-color: white;
-  border-radius: $borderRadius;
-  counter-increment: section-counter;
-  margin-bottom: $spacing;
-  transition: all 0.55s ease-in;
+  padding: $spacing/2 $spacing;
+  border-radius: 0.25rem;
+
   max-width: $cardWitdhMobile;
   @include centerBox;
 
   @include mq-desktop {
     max-width: $cardWidth;
   }
+}
+
+.card {
+  // background-color: pink;
+  counter-increment: section-counter;
+  margin-bottom: $spacing;
+  transition: all 0.55s ease-in;
 
   .card__header {
-    cursor: pointer;
-    padding: $spacing/2 $spacing/4;
     transition: all 0.55s $easingCubic;
-    text-align: center;
+    text-align: left;
 
     &:before {
       content: counter(section-counter);
@@ -32,6 +32,7 @@ $cardWidthExpanded: 48rem;
       font-size: ms(2);
       color: tint($gray, 25%);
       transition: all 0.55s $easingCubic;
+      margin-right: $spacing/2;
     }
 
   }
