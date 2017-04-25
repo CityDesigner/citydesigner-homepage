@@ -9,3 +9,9 @@
   max-width: $wrapWidthSmall;
   @include centerBox;
 }
+
+.wrap-large {
+  padding: 0 $spacing/4;
+  max-width: $wrapWidthLarge;
+  @include centerBox;
+}

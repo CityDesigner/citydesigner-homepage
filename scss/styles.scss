@@ -18,9 +18,13 @@
 @import 'support/helpers';
 @import 'support/layout';
 @import 'support/animations';
+@import 'support/slick';
+@import 'support/slick-theme';
 
 // COMPONENTS
 @import 'components/header';
 @import 'components/card';
+@import 'components/footer';
+@import 'components/quotes';
 
 

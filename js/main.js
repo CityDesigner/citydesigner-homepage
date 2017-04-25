@@ -1,39 +1,29 @@
-$( document ).ready(function() {
+$(document).ready(function(){
 
-  // var cardToggle = $('.card__header');
+  $('.quote-slider__slider').slick({
+    dots: false,
+    infinite: true,
+    speed: 600,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    // adaptiveHeight: true,
+    autoplay: true,
+    autoplaySpeed: 6500,
+    fade: true,
+    arrows: false,
+    asNavFor: '.quote-slider__nav'
+  });
 
-  // cardToggle.click( function () {
-
-  //   var card = $(this).parent();
-  //   var cardBody = card.find('.card__body');
-
-
-  //   if (card.hasClass('expanded')) {
-  //     cardBody.slideUp();
-  //     card.removeClass('expanded');
-  //   } else {
-  //     cardBody.slideDown(800);
-  //     card.addClass('expanded');
-  //     cardToggle.not(this).each(function() {
-  //       var card = $(this).parent();
-  //       var cardBody = card.find('.card__body');
-  //       cardBody.slideUp();
-  //       card.removeClass('expanded');
-  //     })
-  //   }
-
-  // });
-
-
-// $('#accordion').find('.accordion-toggle').click(function(){
-
-//       //Expand or collapse this panel
-//       $(this).next().slideToggle('fast');
-
-//       //Hide the other panels
-//       $(".accordion-content").not($(this).next()).slideUp('fast');
-
-//     });
-
+  $('.quote-slider__nav').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    asNavFor: '.quote-slider__slider',
+    dots: false,
+    focusOnSelect: true,
+    centerMode: true,
+    arrows: false,
+    variableWidth: true,
+    infinite: true
+  });
 
 });

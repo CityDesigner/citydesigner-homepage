@@ -6,6 +6,10 @@
   font-weight: $baseBold;
 }
 
+@mixin fontBold {
+  font-weight: $baseBold;
+}
+
 h1.fw-bold,
 h2.fw-bold,
 h3.fw-bold,
@@ -23,6 +27,10 @@ h4.fw-bold {
 
 .text-brand {
   color: $brandColor;
+}
+
+.bg-secondary {
+  background-color: white;
 }
 
 .uppercase {

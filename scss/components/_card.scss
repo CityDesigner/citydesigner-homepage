@@ -8,18 +8,17 @@ $cardWidthExpanded: 48rem;
   padding: $spacing/2 $spacing;
   border-radius: 0.25rem;
 
-  max-width: $cardWitdhMobile;
-  @include centerBox;
+  // max-width: $cardWitdhMobile;
+  // @include centerBox;
 
-  @include mq-desktop {
-    max-width: $cardWidth;
-  }
+  // @include mq-desktop {
+  //   max-width: $cardWidth;
+  // }
 }
 
 .card {
-  // background-color: pink;
   counter-increment: section-counter;
-  margin-bottom: $spacing;
+  margin-bottom: $spacing*0.75;
   transition: all 0.55s ease-in;
 
   .card__header {
@@ -41,53 +40,6 @@ $cardWidthExpanded: 48rem;
     color: tint($baseColor, 25%);
     transition: all 0.55s $easingCubic;
   }
-
-  .toggle-icon {
-    transition: transform 0.55s $easingCubic;
-
-    svg path {
-      stroke: $gray;
-    }
-  }
-
-  .card__body {
-    display: none;
-  }
-
-  &.expanded {
-    max-width: $cardWidthMobileExpanded;
-    @include centerBox;
-
-    @include mq-desktop {
-      max-width: $cardWidthExpanded;
-    }
-
-    .card__header {
-      padding: $spacing $spacing/4;
-
-      &:before {
-        color: $brandColor;
-      }
-    }
-
-    .card__title {
-      color: $baseColor;
-      font-weight: $headingBold;
-      font-size: ms(2);
-    }
-
-    .toggle-icon {
-      transform: rotate(-180deg);
-    }
-
-    .card__body {
-      display: block;
-      height: auto;
-      overflow: hidden;
-      padding: 0 $spacing/4;
-    }
-  }
-
 }
 
 
@@ -107,22 +59,5 @@ $cardWidthExpanded: 48rem;
 
   .card__toggle {
     width: percentage(1/12);
-  }
-}
-
-.card__body {
-  @include mq-tablet {
-    display: flex;
-    flex-wrap: no-wrap;
-
-    .card__sidebar {
-      width: percentage(1/4);
-      background-color: pink;
-    }
-
-    .card__main {
-      width: percentage(2/4);
-      background-color: gold;
-    }
   }
 }
