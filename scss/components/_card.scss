@@ -82,7 +82,7 @@ $cardWidthExpanded: 48rem;
     .card__body {
       display: block;
       height: auto;
-      overflow: auto;
+      overflow: hidden;
       padding: 0 $spacing/4;
     }
   }
@@ -109,3 +109,19 @@ $cardWidthExpanded: 48rem;
   }
 }
 
+.card__body {
+  @include mq-tablet {
+    display: flex;
+    flex-wrap: no-wrap;
+
+    .card__sidebar {
+      width: percentage(1/4);
+      background-color: pink;
+    }
+
+    .card__main {
+      width: percentage(2/4);
+      background-color: gold;
+    }
+  }
+}

@@ -11,11 +11,8 @@ $( document ).ready(function() {
     if (card.hasClass('expanded')) {
       cardBody.slideUp();
       card.removeClass('expanded');
-      // cardToggle.not(this).each(function() {
-      //   $(this).parent().addClass('blue');
-      // })
     } else {
-      cardBody.slideDown();
+      cardBody.slideDown(800);
       card.addClass('expanded');
       cardToggle.not(this).each(function() {
         var card = $(this).parent();

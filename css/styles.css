@@ -581,7 +581,7 @@ h4.fw-bold {
     .card.expanded .card__body {
       display: block;
       height: auto;
-      overflow: auto;
+      overflow: hidden;
       padding: 0 0.375rem; }
 
 .card__header {
@@ -594,5 +594,16 @@ h4.fw-bold {
     width: 83.33333%; }
   .card__header .card__toggle {
     width: 8.33333%; }
+
+@media (min-width: 768px) {
+  .card__body {
+    display: flex;
+    flex-wrap: no-wrap; }
+    .card__body .card__sidebar {
+      width: 25%;
+      background-color: pink; }
+    .card__body .card__main {
+      width: 50%;
+      background-color: gold; } }
 
 /*# sourceMappingURL=styles.css.map */
