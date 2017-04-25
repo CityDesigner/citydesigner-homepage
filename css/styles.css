@@ -739,11 +739,6 @@ h4.fw-bold {
   .header .logo img {
     max-width: 200px; }
 
-.manifesto {
-  background-color: white;
-  padding: 0.75rem 1.5rem;
-  border-radius: 0.25rem; }
-
 .card {
   counter-increment: section-counter;
   margin-bottom: 1.125rem;
