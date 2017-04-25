@@ -1,0 +1,41 @@
+<section class="bg-secondary">
+
+  <h2 class="visually-hidden">Inspiration</h2>
+
+  <!-- QUOTE-NAV -->
+  <div class="slider-author">
+    {% for quote in quotes %}
+      <div class="slider-author__cell">
+        <div class="author">
+          <div class="author__image">
+            <img src="{{ quote.author_image_url }}" alt="{{ quote.author }}">
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+  <!-- /QUOTE-NAV -->
+
+  <!-- QUOTES -->
+  <div class="slider-quote">
+    {% for quote in quotes %}
+      <div class="slider-quote__cell">
+        <article class="quote">
+          <h3 class="quote__author">{{ quote.author }}</h3>
+          <div class="wrap">
+            <blockquote class="quote__text">
+              {{ quote.quote }}
+            </blockquote>
+          </div>
+          {% if quote.book %}
+            <div class="quote__book">
+              <a href="{{ quote.book_url }}">{{ quote.book }} ({{ quote.book_year }})</a>
+            </div>
+          {% endif %}
+        </article>
+      </div>
+    {% endfor %}
+  </div>
+  <!-- /QUOTES -->
+
+</section>

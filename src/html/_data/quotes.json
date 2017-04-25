@@ -1,0 +1,57 @@
+{
+  "quotes": [
+    {
+      "author": "Victor Papanek",
+      "author_image_url": "/assets/img/authors/victor-papanek-2.jpg",
+      "book": "Design for the Real World",
+      "book_year": "1972",
+      "book_url": "https://www.goodreads.com/book/show/190560.Design_for_the_Real_World",
+      "quote": "All men are designers. All that we do, almost all the time, is design, for design is basic to all human activity.\n\nAny attempt to separate design, to make it a thing-by-itself, works counter to the fact that design is the primary underlying matrix of life."
+    },
+    {
+      "author": "Jane Jacobs",
+      "author_image_url": "/assets/img/authors/jane-jacobs.jpg",
+      "book": "Life and Death of American Cities",
+      "book_year": "1961",
+      "book_url": "https://www.goodreads.com/book/show/30833.The_Death_and_Life_of_Great_American_Cities",
+      "quote": "Cities have the capability of providing for everybody, only because, and only when, they are created by everybody."
+    },
+    {
+      "author": "Kevin Lynch",
+      "author_image_url": "/assets/img/authors/kevin-lynch.jpg",
+      "book": "The Image of the City",
+      "book_year": "1960",
+      "book_url": "http://www.goodreads.com/book/show/647351.The_Image_of_the_City",
+      "quote": "A highly developed art of urban design is linked to the creation of a critical and attentive audience. If art and audience grow together, then our cities will be a source of daily enjoyment to millions of their inhabitants."
+    },
+    {
+      "author": "Buckminster Fuller",
+      "author_image_url": "/assets/img/authors/buckminster-fuller.jpg",
+      "quote": "You never change things by fighting the existing reality. To change something, build a new model that makes the existing model obsolete."
+    },
+    {
+      "author": "Alvin Toffler",
+      "author_image_url": "/assets/img/authors/alvin-toffler.jpg",
+      "book": "Future Shock",
+      "book_year": "1971",
+      "book_url": "https://www.goodreads.com/book/show/466537.Future_Shock",
+      "quote": "What is needed is a concentrated focus on the social and personal implications of the future, not merely on its technological characteristics."
+    },
+    {
+      "author": "Leopold Kohr",
+      "author_image_url": "/assets/img/authors/leopold-kohr.jpg",
+      "book": "The Breakdown of Nations",
+      "book_year": "1978",
+      "book_url": "https://www.goodreads.com/book/show/1723464.The_Breakdown_of_Nations",
+      "quote": "A small-cell arrangement always and everywhere has this one great virtue: it solves the problems, which no degree of planning can handle if they occur on the large scale, by reducing them to proportions in which they solve themselves."
+    },
+    {
+      "author": "Marc Augé",
+      "author_image_url": "/assets/img/authors/marc-auge.jpg",
+      "book": "Non-Places",
+      "book_year": "1992",
+      "book_url": "http://www.goodreads.com/book/show/328450.Non_Places",
+      "quote": "So our ideal ought not to be a world without frontiers, but one where all frontiers are recognized, respected and permeable; a world, in fact, where respect for differences would start with the equality of all individuals, independent of their origin or gender."
+    }
+  ]
+}

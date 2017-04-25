@@ -1,0 +1,123 @@
+$gradinet-color: $bgColor;
+$gradient-width: 85%;
+
+$author-height: 200px;
+$author-width: 156px;
+$author-width-large: 212px;
+
+
+// SLIDER-AUTHOR
+.slider-author:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  pointer-events: none;
+  background-image:
+  linear-gradient(
+    to left,
+    rgba($gradinet-color, 0) $gradient-width,
+    rgba($gradinet-color, 1) 100%
+    ),
+  linear-gradient(
+    to right,
+    rgba($gradinet-color, 0) $gradient-width,
+    rgba($gradinet-color, 1) 100%
+  );
+}
+
+.slider-author__cell {
+  // align-items: stretch;
+  // height: 150p;
+  // width: $author-height;
+  // max-width: $author-width;
+  width: $author-width;
+
+  @include mq-desktop {
+    width: $author-width-large;
+  }
+
+
+  &:focus {
+   outline: 0;
+  }
+}
+
+
+// AUTHOR
+.author {
+  background-color: $gray-light;
+  text-align: center;
+  opacity: 0.35;
+  transition: all 0.75s $easingCubic;
+}
+
+.author__image img {
+  margin: 0;
+  max-width: 100%;
+  width: 1005;
+  vertical-align: middle;
+}
+
+.slick-current .author {
+  background-color: white;
+  opacity: 1;
+  transition: all 0.75s $easingCubic;
+}
+
+
+// SLIDER-QUOTE
+.slider-quote {
+
+  &.slick-initialized .slick-slide {
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+
+.slider-quote__cell {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+  &:focus {
+    outline: 0;
+  }
+}
+
+// QUOUTE
+.quote {
+  text-align: center;
+  padding: $spacing*2 $spacing;
+}
+
+.quote__author {
+  font-size: ms(2);
+  margin-bottom: 0;
+}
+
+.quote__text {
+  line-height: 1.75;
+  font-style: italic;
+  text-align: center;
+  font-size: ms(1);
+  margin-top: $spacing;
+
+  &:before {
+    content: '\201c';
+  }
+
+  &:after {
+    content: '\201d';
+  }
+}
+
+.quote__book a {
+  color: $gray;
+  text-decoration: none;
+}
+
