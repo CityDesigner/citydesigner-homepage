@@ -4,7 +4,8 @@
     "author": "Ilja Panic",
     "description": "Reinventing the urban narrative for the 21st Century",
     "keywords": "urban design, city design, urbanism, future",
-    "url": "http://citydesigner.org"
+    "url": "http://citydesigner.org",
+    "repo": "https://github.com/CityDesigner/citydesigner.org"
   },
 
   "social": {

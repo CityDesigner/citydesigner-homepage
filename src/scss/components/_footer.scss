@@ -3,3 +3,19 @@
   padding: $spacing*2 $spacing;
 
 }
+
+.github-logo {
+  display: block;
+  margin-top: $spacing/2;
+}
+
+.github-logo img {
+  vertical-align: middle;
+  max-width: 158px;
+  opacity: 0.75;
+  transition: all 0.75s ease-in-out;
+
+  &:hover {
+    opacity: 1;
+  }
+}
