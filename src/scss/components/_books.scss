@@ -41,6 +41,9 @@
     line-height: 1.5;
     font-size: ms(-1);
     color: shade($brandColor, 25%);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
 }
