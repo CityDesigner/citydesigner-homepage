@@ -6,7 +6,7 @@ var deploy = require('gulp-gh-pages');
 
 
 var deployTask = function () {
-  return gulp.src('./dist/**/**/**/**/**/*')
+  return gulp.src('./docs/**/*')
     .pipe(deploy())
 }
 
