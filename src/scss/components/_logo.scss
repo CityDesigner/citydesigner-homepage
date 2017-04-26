@@ -1,0 +1,12 @@
+.logo {
+
+  svg {
+    width: 172px;
+    vertical-align: middle;
+  }
+
+  svg path {
+    stroke: $brandColor;
+    stroke-width: 6;
+  }
+}

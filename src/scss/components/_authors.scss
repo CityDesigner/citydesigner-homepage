@@ -49,8 +49,9 @@ $author-width-large: 212px;
 // AUTHOR
 .author {
   background-color: $gray-light;
-  text-align: center;
+  cursor: pointer;
   opacity: 0.35;
+  text-align: center;
   transition: all 0.75s $easingCubic;
 }
 
@@ -71,10 +72,10 @@ $author-width-large: 212px;
 // SLIDER-QUOTE
 .slider-quote {
 
-  &.slick-initialized .slick-slide {
-    float: none;
-    display: inline-block;
-    vertical-align: middle;
+  &.slick-initialized .slick-slide { // vertial-alignment of the cell content
+    // float: none;
+    // display: inline-block;
+    // vertical-align: middle;
   }
 }
 
