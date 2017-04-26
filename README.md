@@ -9,4 +9,4 @@ A guide on how to contribute is coming soon. Meanwhile, please send any comments
 
 ## Contributors
 
-- Ilja Panic [[http://iljapanic.me](Website)|[http//twitter.com/iljapanic](Twitter)]
+- Ilja Panic [[Website](http://iljapanic.me)|[Twitter](http//twitter.com/iljapanic)]
