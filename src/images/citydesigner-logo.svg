@@ -1,9 +1,27 @@
-<svg width="256" height="198" viewBox="0 0 256 198" xmlns="http://www.w3.org/2000/svg">
-  <title>
-    citydesigner.org logo
-  </title>
-  <g stroke-width="6" fill="none" fill-rule="evenodd">
-    <path d="M6.058 179h244.916M113.21 80.105V14H72.39v101.7M154.028 80.105V14h-20.41v66.105M194.847 120.786v-50.85l-20.41-10.17v61.02M21.366 176.72c0-25.277 20.557-45.764 45.92-45.764 25.365 0 45.923 20.487 45.923 45.765M92 29.255v10.17M92 49.595v10.17M92 69.935v10.17"/>
-    <path d="M92.8 141.126V95.36h61.228v40.68c0 22.467 18.277 40.68 40.82 40.68 22.542 0 40.818-20.34 40.818-40.68h-66.33M154.028 115h-45.922M154.028 135H118.31M194.847 95.36h30.615v25.426M50 176.72v-25.424M67.287 154h10.205"/>
-  </g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256px" height="256px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>citydesigner-logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="citydesigner-logo" stroke="#F45844" stroke-width="6">
+            <g id="city" transform="translate(6.000000, 43.000000)">
+                <path d="M0.0584942119,165 L244.973581,165" id="Shape"></path>
+                <polyline id="Shape" points="107.208845 66.1054928 107.208845 0 66.3896636 0 66.3896636 101.700758"></polyline>
+                <polyline id="Shape" points="148.028026 66.1054928 148.028026 0 127.618435 0 127.618435 66.1054928"></polyline>
+                <polyline id="Shape" points="188.847207 106.785796 188.847207 55.935417 168.437616 45.7653412 168.437616 106.785796"></polyline>
+                <path d="M15.3656871,162.721213 C15.3656871,137.44349 35.9232472,116.955872 61.2872659,116.955872 C86.6512846,116.955872 107.208845,137.44349 107.208845,162.721213" id="Shape"></path>
+                <path d="M86,15.2551137 L86,25.4251895" id="Shape"></path>
+                <path d="M86,35.5952654 L86,45.7653412" id="Shape"></path>
+                <path d="M86,55.935417 L86,66.1054928" id="Shape"></path>
+                <path d="M86.7992542,127.125948 L86.7992542,81.3606066 L148.028026,81.3606066 L148.028026,122.04091 C148.028026,144.506607 166.304814,162.721213 188.847207,162.721213 C211.3896,162.721213 229.666388,142.381061 229.666388,122.04091 L163.335219,122.04091" id="Shape"></path>
+                <path d="M148.028026,101 L102.106447,101" id="Shape"></path>
+                <path d="M148.028026,121 L112.311242,121" id="Shape"></path>
+                <polyline id="Shape" points="188.847207 81.3606066 219.461593 81.3606066 219.461593 106.785796"></polyline>
+                <path d="M44,162.721213 L44,137.296024" id="Shape"></path>
+                <path d="M61.2872659,140 L71.4920612,140" id="Shape"></path>
+            </g>
+        </g>
+    </g>
 </svg>
