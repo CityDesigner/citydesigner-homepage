@@ -1,9 +1,8 @@
 $gradinet-color: $bgColor;
 $gradient-width: 85%;
 
-$author-height: 200px;
-$author-width: 156px;
-$author-width-large: 212px;
+$author-width: 92px;
+$author-width-large: 192px;
 
 
 // SLIDER-AUTHOR
@@ -29,10 +28,6 @@ $author-width-large: 212px;
 }
 
 .slider-author__cell {
-  // align-items: stretch;
-  // height: 150p;
-  // width: $author-height;
-  // max-width: $author-width;
   width: $author-width;
 
   @include mq-desktop {
@@ -93,7 +88,7 @@ $author-width-large: 212px;
 // QUOUTE
 .quote {
   text-align: center;
-  padding: $spacing*2 $spacing;
+  padding: $spacing*2 $spacing/8;
 }
 
 .quote__author {

@@ -9,7 +9,8 @@ $(document).ready(function(){
     centerMode: true,
     arrows: false,
     variableWidth: true,
-    infinite: true
+    infinite: true,
+    swipeToSlide: true
   });
 
   $('.slider-quote').slick({
@@ -22,7 +23,8 @@ $(document).ready(function(){
     autoplaySpeed: 6500,
     fade: true,
     arrows: false,
-    asNavFor: '.slider-author'
+    asNavFor: '.slider-author',
+    adaptiveHeight: true
   });
 
 });
