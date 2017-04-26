@@ -1,7 +1,17 @@
-<section>
+<section class="books">
 
-  <h2 class="ta-center fs-large">Bibliography</h2>
+  <h2 class="ta-center fs-large uppercase margin-bottom-4">Bibliography</h2>
 
+
+  <ul>
+    {% for book in books|sort(false, true, 'author') %}
+      <li class="book">
+        <span class="book__author">{{ book.author }}</span> ({{ book.year }})<br>
+        <a class="book__book" href="{{ book.goodreads }}" target="_blank">{{ book.title }}</a>
+
+      </li>
+    {% endfor %}
+  </ul>
 
 
 </section>

@@ -1,0 +1,39 @@
+.books {
+
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+  }
+
+
+  li {
+    font-size: ms(0);
+    margin-bottom: $spacing*0.75;
+    margin-right: 2%;
+    text-align: right;
+    width: 48%;
+
+    &:nth-of-type(2n) {
+      text-align: left;
+      margin-right: 0;
+      margin-left: 2%;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: shade($brandColor, 10%);
+  }
+
+  .book__book {
+    display: block;
+    line-height: 1.75;
+    font-size: ms(-1);
+  }
+
+}
