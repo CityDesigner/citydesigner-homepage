@@ -22,8 +22,8 @@ Meanwhile, please send any comments and suggestions to [ilja@citydesigner.org](m
 - [x] ~~add Authors slider~~ 
 - [x] ~~add Bibliography~~
 - [ ] write Contributor's guide
-- [ ] create new logo
-- [ ] add 'Suggestions' module to site
+- [ ] design a new logo
+- [ ] add 'Suggestions' form
 
 
 ## Contributors
