@@ -30,6 +30,12 @@
     color: inherit;
   }
 
+  .book__year {
+    font-size: ms(-1);
+    vertical-align: middle;
+    color: tint($baseColor, 15%);
+  }
+
   .book__title {
     display: block;
     line-height: 1.5;

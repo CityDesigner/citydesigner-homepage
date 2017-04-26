@@ -7,7 +7,7 @@
     {% for book in books|sort(false, true, 'author') %}
       <li class="book">
         <a class="book__book" href="{{ book.goodreads }}" target="_blank" title="Check out {{ book.title }} on Goodreads">
-          <span class="book__author">{{ book.author }}</span> ({{ book.year }})
+          <span class="book__author">{{ book.author }}</span> <span class="book__year">({{ book.year }})</span>
           <span class="book__title">{{ book.title }}</span>
         </a>
       </li>
