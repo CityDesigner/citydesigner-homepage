@@ -13,11 +13,13 @@ h4.fw-bold {
   font-weight: $headingBold;
 }
 
-.fs-small {
+.fs-small,
+.fs-small p {
   font-size: ms(-1);
 }
 
-.fs-large {
+.fs-large,
+.fs-large p {
   font-size: ms(1);
 }
 

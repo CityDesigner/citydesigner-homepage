@@ -23,7 +23,7 @@ Meanwhile, please send any comments and suggestions to [ilja@citydesigner.org](m
 - [x] ~~add Bibliography~~
 - [ ] write Contributor's guide
 - [ ] create new logo
-- [ ] add 'Suggestions' module
+- [ ] add 'Suggestions' module to site
 
 
 ## Contributors

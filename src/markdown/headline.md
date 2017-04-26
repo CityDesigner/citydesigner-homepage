@@ -1,0 +1,1 @@
+CityDesigner.org aim is to create and curate a wide variety of material to improve everyone's understanding of this new era of urban and socio-political development.

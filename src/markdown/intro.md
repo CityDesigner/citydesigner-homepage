@@ -1,7 +1,3 @@
-Hello there online stranger!
+# Reinventing the urban narrative for the 21st century
 
-My name is Ilja and I make things on the Web.
-
-I'm passionate about technology, information design, urbanism, futurism, new media and intricacies of the human mind. I drink lots of filter coffee, play basketball, read strange books and listen to excentric music.
-
-Get in touch if you'd like to create something together!
+The world around us is changing at an unprecedented pace. The modern city is the primary driver of this change. It is the symbol of our technoscientific era. The rapidly evolving urban framework of living will dominate the coming centuries. There is an urgent need to help people better understand the issues that a city poses.
