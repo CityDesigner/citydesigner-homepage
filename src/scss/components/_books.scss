@@ -13,7 +13,7 @@
 
   li {
     font-size: ms(0);
-    margin-bottom: $spacing*0.75;
+    margin-bottom: $spacing;
     margin-right: 2%;
     text-align: right;
     width: 48%;
@@ -27,13 +27,14 @@
 
   a {
     text-decoration: none;
-    color: shade($brandColor, 10%);
+    color: inherit;
   }
 
-  .book__book {
+  .book__title {
     display: block;
-    line-height: 1.75;
+    line-height: 1.5;
     font-size: ms(-1);
+    color: shade($brandColor, 25%);
   }
 
 }
