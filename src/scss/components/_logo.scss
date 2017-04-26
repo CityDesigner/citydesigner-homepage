@@ -1,8 +1,14 @@
+$logo-width: 128px;
+$logo-width-large: 172px;
+
 .logo {
 
   svg {
-    width: 172px;
+    width: $logo-width;
     vertical-align: middle;
+    @include mq-tablet {
+      width: $logo-width-large;
+    }
   }
 
   svg path {
