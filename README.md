@@ -1,5 +1,5 @@
 
-![citydesigner.org logo][/src/images/city-designer-logo.png?raw=true]
+![citydesigner.org logo](/src/images/city-designer-logo.png?raw=true)
 
 # citydesigner.org
 
