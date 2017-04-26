@@ -17,4 +17,4 @@ Meanwhile, please send any comments and suggestions to [ilja@citydesigner.org](m
 
 ## Contributors
 
-- Ilja Panic - [Web](http://iljapanic.me)/[Twitter](http//twitter.com/iljapanic)
+- Ilja Panic - [Web](http://iljapanic.me) / [Twitter](http//twitter.com/iljapanic)
