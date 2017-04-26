@@ -22,7 +22,6 @@
 ######################
 
 # Ignore cache
-/.publish
 /.sass-cache
 /.cache
 
