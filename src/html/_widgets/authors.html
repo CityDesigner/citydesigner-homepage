@@ -4,11 +4,11 @@
 
   <!-- QUOTE-NAV -->
   <div class="slider-author">
-    {% for quote in quotes %}
+    {% for author in authors %}
       <div class="slider-author__cell">
         <div class="author">
           <div class="author__image">
-            <img src="{{ quote.author_image_url }}" alt="{{ quote.author }}">
+            <img src="{{ author.author_image_url }}" alt="{{ author.author }}">
           </div>
         </div>
       </div>
@@ -18,18 +18,18 @@
 
   <!-- QUOTES -->
   <div class="slider-quote">
-    {% for quote in quotes %}
+    {% for author in authors %}
       <div class="slider-quote__cell">
         <article class="quote">
-          <h3 class="quote__author">{{ quote.author }}</h3>
+          <h3 class="quote__author">{{ author.author }}</h3>
           <div class="wrap">
             <blockquote class="quote__text">
-              {{ quote.quote }}
+              {{ author.quote }}
             </blockquote>
           </div>
-          {% if quote.book %}
+          {% if author.book %}
             <div class="quote__book">
-              <a href="{{ quote.book_url }}">{{ quote.book }} ({{ quote.book_year }})</a>
+              <a href="{{ quote.book_url }}">{{ author.book }} ({{ author.book_year }})</a>
             </div>
           {% endif %}
         </article>

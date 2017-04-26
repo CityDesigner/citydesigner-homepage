@@ -27,7 +27,7 @@
       "dataSrc": "html/_data",
       "dataGlobal": "html/_data/global.json",
       "dataBooks": "html/_data/books.json",
-      "dataQuotes": "html/_data/quotes.json",
+      "dataAuthors": "html/_data/authors.json",
       "htmlmin": {
         "collapseWhitespace": true
       },

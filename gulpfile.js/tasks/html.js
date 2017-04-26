@@ -25,9 +25,9 @@ var getBooks = function (file) {
   return JSON.parse(fs.readFileSync(dataBooks, 'utf8'))
 }
 
-var getQuotes = function (file) {
-  var dataQuotes = path.resolve(config.root.src, config.tasks.html.dataQuotes)
-  return JSON.parse(fs.readFileSync(dataQuotes, 'utf8'))
+var getAuthors = function (file) {
+  var dataAuthors = path.resolve(config.root.src, config.tasks.html.dataAuthors)
+  return JSON.parse(fs.readFileSync(dataAuthors, 'utf8'))
 }
 
 var htmlTask = function () {
@@ -36,7 +36,7 @@ var htmlTask = function () {
     .on('error', handleErrors)
     .pipe(data(getBooks))
     .on('error', handleErrors)
-    .pipe(data(getQuotes))
+    .pipe(data(getAuthors))
     .on('error', handleErrors)
     .pipe(nunjucksRender({
       path: [paths.nunjuck]

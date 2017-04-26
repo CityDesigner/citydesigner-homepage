@@ -4,19 +4,10 @@ $cardWidthMobileExpanded: 95%;
 $cardWidthExpanded: 48rem;
 
 .manifesto {
-  // background-color: white;
-  // padding: $spacing/2 $spacing;
-  // border-radius: 0.25rem;
 
-  // max-width: $cardWitdhMobile;
-  // @include centerBox;
-
-  // @include mq-desktop {
-  //   max-width: $cardWidth;
-  // }
 }
 
-.card {
+.manifesto .card {
   counter-increment: section-counter;
   margin-bottom: $spacing*0.75;
   transition: all 0.55s ease-in;
@@ -44,7 +35,7 @@ $cardWidthExpanded: 48rem;
 
 
 // LAYOUT
-.card__header {
+.manifesto .card__header {
   align-items: center;
   display: flex;
   flex-wrap: wrap;
