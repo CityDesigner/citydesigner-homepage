@@ -20,7 +20,7 @@ $(document).ready(function(){
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 6500,
+    autoplaySpeed: 7000,
     fade: true,
     arrows: false,
     asNavFor: '.slider-author',
