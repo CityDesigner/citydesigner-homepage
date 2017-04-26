@@ -1,6 +1,8 @@
 
 ![citydesigner.org logo](/src/images/citydesigner-logo.png?raw=true)
 
+[![CityDesigner.org Gitter chat](http://badges.gitter.im/org.png](https://gitter.im/citydesigner/Lobby)
+
 # citydesigner.org
 
 This is a brand new project so documentation is sparse right now.
@@ -20,6 +22,8 @@ Meanwhile, please send any comments and suggestions to [ilja@citydesigner.org](m
 - [x] ~~add Authors slider~~ 
 - [x] ~~add Bibliography~~
 - [ ] write Contributor's guide
+- [ ] create new logo
+- [ ] add 'Suggestions' module
 
 
 ## Contributors
