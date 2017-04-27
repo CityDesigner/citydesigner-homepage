@@ -1,3 +1,3 @@
 # Reinventing the urban narrative for the 21st century
 
-The world around us is changing at an unprecedented pace. The modern city is the primary driver of this change. It is the symbol of our technoscientific era. The rapidly evolving urban framework of living will dominate the coming centuries. There is an urgent need to help people better understand the issues that a city poses.
+CityDesigner.org curates information to help you understand the design challenges posed by a modern urban environment. Our long-term ambition is to create a platform for learning and engaging with the public on how to design better cities for everyone, by everyone.
