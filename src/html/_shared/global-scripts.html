@@ -2,7 +2,8 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script>
   if (!window.jQuery) {
-  document.write('<script src="/assets/js/vendor/jquery.min.js"><\/script>');
+    console.log('Google CDN copy of jQuery cannot be reached, loading a local copy...');
+    document.write('<script src="/assets/js/vendor/jquery.min.js"><\/script>');
   }
 </script>
 <script type="text/javascript" src="/assets/js/vendor/jquery.slick.min.js"></script>
