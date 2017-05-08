@@ -1,17 +1,23 @@
 <!-- HEADER -->
 <header role="banner" class="header">
 
-  <div class="wrap">
+  <div class="header__logo">
+    {% include "../_shared/logo.html" %}
+  </div>
 
-    {% include "./logo.html" %}
-
+  <div class="header__intro">
     <!-- INTRO -->
     <article class="intro">
-      {% include "../_text/intro.html" %}
+      <div class="intro__text">
+        <div class="wrap">
+          {% include "../_text/intro.html" %}
+        </div>
+      </div>
     </article>
     <!-- /INTRO -->
-
   </div>
+
+  <div class="source"><a href="https://centrici.hypotheses.org/687" target="_blank">Image Source</a></div>
 
 </header>
 <!-- /HEADER -->

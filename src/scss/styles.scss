@@ -8,6 +8,7 @@
 @import 'functions/tint-shade';
 
 // MIXINS
+@import 'mixins/absolute-fill';
 @import 'mixins/center-box';
 @import 'mixins/clearfix';
 @import 'mixins/media-queries';
@@ -15,6 +16,7 @@
 // BASIC STYLES
 @import 'support/normalize';
 @import 'support/base';
+@import 'support/bg';
 @import 'support/helpers';
 @import 'support/layout';
 @import 'support/animations';

@@ -6,6 +6,11 @@ $author-width-large: 192px;
 
 
 // SLIDER-AUTHOR
+
+.slider-author {
+  // border-top: 2px solid white;
+}
+
 .slider-author:after {
   content: '';
   position: absolute;
@@ -48,6 +53,7 @@ $author-width-large: 192px;
   opacity: 0.35;
   text-align: center;
   transition: all 0.75s $easingCubic;
+  border: 1px solid white;
 }
 
 .author__image img {
