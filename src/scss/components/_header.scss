@@ -1,13 +1,16 @@
 .header {
   text-align: center;
-  padding: $spacing/2 $spacing;
+  padding: $spacing $spacing;
   height: 76vh;
   position: relative;
   z-index: 1;
   display: flex;
   flex-wrap: wrap;
-  // align-items: center;
   justify-content: center;
+
+  @include mq-tablet {
+    padding: $spacing/2 $spacing;
+  }
 
   &:after {
     @include absoluteFill;
@@ -33,6 +36,10 @@
   .header__subscribe {
     width: percentage(1/2);
     text-align: right;
+
+    @include mq-tablet {
+      margin-bottom: $spacing/2;
+    }
 
     a {
       text-transform: uppercase;
