@@ -37,6 +37,16 @@ h4.fw-bold {
   letter-spacing: 0.05rem;
 }
 
+.subtle-link a,
+a.subtle-link {
+  text-decoration: none;
+  color: shade($brandColor, 45%);
+
+  &:hover {
+    color: shade($brandColor, 15%);
+  }
+}
+
 .margin-top-1 {
   margin-top: $spacing/2;
 }
