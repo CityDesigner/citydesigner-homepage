@@ -36,19 +36,22 @@ $input-border: 1px solid transparent;
   align-items: stretch;
 
   .email {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
     border-bottom-left-radius: $input-radius;
     border-top-left-radius: $input-radius;
     border: $input-border;
     display: inline-block;
-    font-size: ms(0);
+    font-size: 16px;
     height: $input-height;
     line-height: $input-height;
     margin: 0;
     outline: 0;
     padding-bottom: 0;
     padding-left: $spacing/4;
-    width: percentage(2/3);
     transition: all 0.35s;
+    width: percentage(2/3);
 
     &::-webkit-input-placeholder {
       color: tint($baseColor, 55%);
@@ -60,6 +63,9 @@ $input-border: 1px solid transparent;
   }
 
   .button {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
     background-color: $brandColor;
     border-bottom-right-radius: $input-radius;
     border-top-right-radius: $input-radius;

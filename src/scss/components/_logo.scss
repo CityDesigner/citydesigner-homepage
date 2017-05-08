@@ -2,7 +2,6 @@ $logo-width: 156px;
 $logo-width-large: 256px;
 
 .logo {
-  // text-align: left;
 
   img {
     width: $logo-width;
@@ -10,10 +9,5 @@ $logo-width-large: 256px;
     @include mq-tablet {
       width: $logo-width-large;
     }
-  }
-
-  svg path {
-    // stroke: $brandColor;
-    // stroke-width: 6;
   }
 }
