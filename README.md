@@ -1,5 +1,5 @@
 
-![citydesigner.org logo](/src/images/citydesigner-logo.png?raw=true)
+![citydesigner.org logo](/src/images/citydesigner-logo-full.png?raw=true)
 
 [![CityDesigner.org Gitter chat](http://badges.gitter.im/org.png)](https://gitter.im/citydesigner/Lobby)
 
