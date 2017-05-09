@@ -118,6 +118,10 @@ $author-width-large: 192px;
   }
 }
 
+.quote__book {
+  margin-top: $spacing/2;
+}
+
 .quote__book a {
   color: $gray;
   text-decoration: none;
