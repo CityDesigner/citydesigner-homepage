@@ -11,7 +11,7 @@
 yarn.lock
 
 # Ignore the build directory
-
+/dist
 
 
 # Logs and databases #
