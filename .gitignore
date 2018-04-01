@@ -7,8 +7,6 @@
 # Ignore bundler config
 /.bundle
 
-# Ignore yarn
-yarn.lock
 
 # Ignore the build directory
 /dist
